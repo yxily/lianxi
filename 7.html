@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>如梦令</title>
+	<link rel="stylesheet" type="text/css" href="css/fenye.css">
+	<style>
+		h3, h4, p, div, ul, li, span, a, body, dl, dd {
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+			color: #000;
+			font-family: '宋体';
+		}
+		ul {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+			color: #000;
+		}
+		.clearfix::after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.box{
+			width: 647px;
+			margin: 0 auto;
+		}
+		.left {
+			float: left;
+		}
+		.right {
+			float: right;
+		}
+		.box {
+			width: 639px;
+			padding: 0px 4px;
+			background: #F3F1E4;
+		/* 	overflow: hidden; */
+		}
+		.page {
+			border-bottom: 1px dashed #000;
+			position: relative;
+		}
+		.page h3 {
+			height: 52px;
+			line-height: 52px;
+			font-size: 24px;
+			padding-top: 3px;
+		}
+		.page_left .page_left_top {
+			font-size: 12px;
+			line-height: 18px;
+			color: #615F60;
+		}
+		.page_left .page_left_top .lanse {
+			color: #19527D;
+		}
+		.page_left .page_left_top .heise {
+			color: #000;
+		}
+		.page_left .page_left_center {
+			font-size: 14px;
+			line-height: 28px;
+		}
+		.page p a {
+			color: #1A517A;
+			font-size: 12px;
+			line-height: 64px;
+			padding: 0px 4px 0px 12px;
+		}
+		.page p .fenxiang {
+			padding: 0px 14px 0px 47px;
+			color: #000;
+		}
+		.page p .tuijian {
+			color: #AF0917;
+		}
+		.page p .beijing {
+			background: url('images/rumengling.png') no-repeat;
+		}
+		.page p .fenxiang {
+			background: url('images/jiahao.png') no-repeat 29px;
+			display: inline-block;
+			height: 64px;
+		}
+		.page p .fanyi {
+			background-position:-12px -12px;
+		}
+		.page p .shangxi {
+			background-position:-12px -38px;
+		}
+		.page p .jiucuo {
+			background-position:-12px -64px;
+		}
+		.page p .shoucang {
+			background-position:-12px -90px;
+		}
+		.page p .pingfen {
+			display: inline-block;
+			height: 64px;
+			background: url('images/pingfen.png') no-repeat right center;
+			text-align: center;
+			line-height: 64px;
+			padding-right: 83px;
+		}
+		.page_right {
+			width: 163px;
+		}
+		.page_right p {
+			font-size: 12px;
+			line-height: 24px;
+		}
+		.page_right p span {
+			color: #FE0201;
+		}
+		.page_right li {
+			padding-left: 50px;
+			background: url('images/daxing.png') no-repeat;
+			height: 14px;
+			margin-bottom: 3px;
+			width: 100px;
+		}
+		.page_right li span {
+			width: 100px;
+			background: #F1CCB1;
+			height: 14px;
+			float: left;
+		}
+		.page_right .page_right_1 {
+			background-position: 0 0px;
+		}
+		.page_right .page_right_2 {
+			background-position: 0 -16px;
+		}
+		.page_right .page_right_3 {
+			background-position: 0 -33px;
+		}
+		.page_right .page_right_4 {
+			background-position: 0 -50px;
+		}
+		.page_right .page_right_5 {
+			background-position: 0 -68px;
+		}
+		.page_right .page_right_1 span {
+			width: 70px;
+		}
+		.page_right .page_right_2 span {
+			width: 5px;
+		}
+		.page_right .page_right_3 span {
+			width: 10px;
+		}
+		.page_right .page_right_4 span {
+			width: 3px;
+		}
+		.page_right .page_right_5 span {
+			width: 12px;
+		}
+		.cankaofanyi {
+			width: 60px;
+			height: 20px;
+			color: #fff;
+			font-size: 12px;
+			background: #71A7D3;
+			line-height: 20px;
+			text-align: center;
+			margin-bottom: 10px;
+		}
+		.cankaofanyi a {
+			background: url('images/rumengling.png') no-repeat;
+			background-position:-12px -10px;
+			color: #1A517A;
+			font-size: 12px;
+			line-height: 20px;
+			padding: 0px 4px 0px 12px;
+			position: absolute;
+			right: 0px;
+			bottom: 10px;
+		}
+		.zhushi {
+			padding-bottom: 6px;
+		}
+		.zhushi h4 {
+			text-decoration: underline;
+			color: #19527D;
+			line-height: 26px;
+			font-size: 14px;
+			margin-top: 18px;
+		}
+		.zhushi p {
+			line-height: 20px;
+			font-size: 12px;
+		}
+		.zhushi p span {
+			width: 20px;
+			height: 12px;
+			display: inline-block;
+			background: url('images/sanjiao.png') no-repeat right top;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="page clearfix">
+			<h3>如梦令·常记溪亭日暮</h3>
+			<div class="clearfix">
+				<div class="page_left left">
+				<dl>
+					<dd class="page_left_top">朝代：<span class="heise">宋代</span></dd>
+					<dd class="page_left_top">作者：<span class="lanse">李清照</span></dd>
+					<dd class="page_left_top">原文</dd>
+					<dd class="page_left_center">常记溪亭日暮，沉醉不知归路</dd>
+					<dd class="page_left_center">兴尽晚回舟，误入藕花深处</dd>
+					<dd class="page_left_center">争渡，争渡，惊奇一滩鸥鹭</dd>
+				</dl>
+			</div>
+			<div class="page_right right">
+				<p>（4441人评分）<span>8.4</span></p>
+				<ul>
+					<li class="page_right_1"><span></span></li>
+					<li class="page_right_2"><span></span></li>
+					<li class="page_right_3"><span></span></li>
+					<li class="page_right_4"><span></span></li>
+					<li class="page_right_5"><span></span></li>
+				</ul>
+			</div>
+			</div>
+			<p><a class="beijing fanyi" href="###">写翻译</a>
+					<a class="beijing shangxi" href="###">写赏析</a>
+					<a class="beijing jiucuo" href="###">纠错</a>
+					<a class="beijing shoucang" href="###">收藏</a>
+					<a class="beijing fenxiang"  href="###">分享</a>
+					<span class="pingfen">评分</span>
+					<a class="tuijian" href="###">推荐</a>
+				</p>
+				<div class="cankaofanyi">参考翻译<span><a href="###">写翻译</a></span></div>
+		</div>
+		<div class="zhushi">
+			<h4>译文及注释</h4>
+			<p>还记得那次在溪边亭中游玩日色已暮，沉迷在优美的景色中忘记了回家的路。尽兴以后大家乘着夜色赶快掉转船头，却不料走错了路小船划进了藕花深处。怎么出去呢？怎么出去呢？叽喳声惊叫声划船声惊起了一滩鸣鹭<span></span></p>
+		</div>
+	</div>
+	<div class="fenye">
+		<a href="6.html">上一页</a><a href="1.html">下一页</a>
+	</div>
+</body>
+</html>
